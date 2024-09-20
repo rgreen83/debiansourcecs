@@ -1,0 +1,29 @@
+# as of 2023-06-21
+# oldoldoldstable == Stretch (v9)
+# oldoldstable == Buster (v10)
+# oldstable == Bullsey (v11)
+# stable == Bookworm (v12) (2023-06-10)
+# testing ==  (v13)- aka Trxie
+# unstable == (v14) - aka Forky
+#
+# See http://wiki.debian.org/DebianReleases
+#
+# uncomment deb-src lines if you need source repos (this is rare and if you need them you know it)
+
+# Debian Main Repositories
+deb http://deb.debian.org/debian/ bookworm contrib main non-free non-free-firmware
+# deb-src http://deb.debian.org/debian/ bookworm contrib main non-free non-free-firmware
+
+# Debian Updates
+deb http://deb.debian.org/debian/ bookworm-updates contrib main non-free non-free-firmware
+# deb-src http://deb.debian.org/debian/ bookworm-updates contrib main non-free non-free-firmware
+
+deb http://deb.debian.org/debian/ bookworm-proposed-updates contrib main non-free non-free-firmware
+# deb-src http://deb.debian.org/debian/ bookworm-proposed-updates contrib main non-free non-free-firmware
+
+deb http://deb.debian.org/debian/ bookworm-backports contrib main non-free non-free-firmware
+# deb-src http://deb.debian.org/debian/ bookworm-backports contrib main non-free non-free-firmware
+
+# Debian Security Updates
+deb http://deb.debian.org/debian-security/ bookworm-security contrib main non-free non-free-firmware
+# deb-src http://deb.debian.org/debian-security/ bookworm-security contrib main non-free non-free-firmware
