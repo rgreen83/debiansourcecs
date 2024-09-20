@@ -18,9 +18,11 @@ deb http://deb.debian.org/debian/ bookworm contrib main non-free non-free-firmwa
 deb http://deb.debian.org/debian/ bookworm-updates contrib main non-free non-free-firmware
 # deb-src http://deb.debian.org/debian/ bookworm-updates contrib main non-free non-free-firmware
 
+# Debian Proposed Updates - early pre-release updates, comment out if you want stable release only
 deb http://deb.debian.org/debian/ bookworm-proposed-updates contrib main non-free non-free-firmware
 # deb-src http://deb.debian.org/debian/ bookworm-proposed-updates contrib main non-free non-free-firmware
 
+# Debian Backports - update from debian testing recompiled for stable (https://wiki.debian.org/Backports) , comment out if you want stable release only
 deb http://deb.debian.org/debian/ bookworm-backports contrib main non-free non-free-firmware
 # deb-src http://deb.debian.org/debian/ bookworm-backports contrib main non-free non-free-firmware
 
